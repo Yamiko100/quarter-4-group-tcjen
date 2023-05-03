@@ -3,9 +3,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 10f;
-    public float jumpForce = 10f;
-    private float jumpingPower = 16f;
+    public float speed = 5f;
+    public float jumpForce = 5f;
     private bool isFacingRight = true;
     public bool isGrounded;
     public Vector2 spawnPoint;
